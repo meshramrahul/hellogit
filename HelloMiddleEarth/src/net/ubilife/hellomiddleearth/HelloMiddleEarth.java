@@ -5,7 +5,7 @@ public class HelloMiddleEarth {
 		String[] names = {"Bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf"};
 		//Print Greeting
 		for (int i=0; i<names.length;i++) {
-			System.out.format("Hello %$!\n", names[i]);
+			System.out.format("Hello %s!\n", names[i]);
 		}
 	}
 
